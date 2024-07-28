@@ -1,0 +1,98 @@
+{
+  "version": "orpg.1.0",
+  "characters": {
+    "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW": {
+      "id": "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW",
+      "model": "openrouter/auto",
+      "modelInfo": {
+        "id": 158,
+        "slug": "openrouter/auto",
+        "hf_slug": null,
+        "updated_at": null,
+        "created_at": "2023-11-08T00:00:00+00:00",
+        "hf_updated_at": null,
+        "name": "Auto (best for prompt)",
+        "short_name": "Auto (best for prompt)",
+        "author": "openrouter",
+        "description": "Depending on their size, subject, and complexity, your prompts will be sent to [Llama 3 70B Instruct](/models/meta-llama/llama-3-70b-instruct), [Claude 3.5 Sonnet (self-moderated)](/models/anthropic/claude-3.5-sonnet:beta) or [GPT-4o](/models/openai/gpt-4o).  To see which model was used, visit [Activity](/activity).\n\nA major redesign of this router is coming soon. Stay tuned on [Discord](https://discord.gg/fVyRaUDgxW) for updates.",
+        "context_length": 200000,
+        "modality": "text->text",
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "router": null,
+        "base_model_slug": "openrouter/auto",
+        "endpoint": null
+      },
+      "updatedAt": "2024-07-28T15:25:54.973Z",
+      "samplingParameters": {},
+      "maxTokens": 0,
+      "chatMemory": 8,
+      "description": ""
+    }
+  },
+  "messages": {
+    "msg-evSuASKUrM0X5kluc1MY2vQYQy5q": {
+      "characterId": "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW",
+      "content": "Yes, it's quite common to use the WordPress Admin (also known as the WordPress Dashboard) for WYSIWYG (What You See Is What You Get) development on a local environment. The WordPress Admin interface includes numerous built-in tools and editors designed to make content creation and site management easier. Here are some scenarios where using the WordPress Admin for development on a local environment is advantageous:\n\n### Benefits\n\n1. **Ease of Use**: The WordPress Admin's visual editor allows for easy content creation and editing without needing to write code.\n2. **Preview Capabilities**: You can easily preview changes in real-time, which helps with visual design and layout work.\n3. **Customization**: Utilize themes and plugins that offer drag-and-drop builders or visual editors like Elementor, Divi, or Beaver Builder.\n4. **Content Management**: Efficiently manage posts, pages, media, and other content types.\n5. **Local Testing**: Ensure your site looks and functions as expected in a controlled environment before going live.\n\n### Setting Up WordPress Admin for Local Development\n\n#### Step 1: Clone Your Production Site Locally\n\nAs described in previous responses, create a clone of your production site to your local development environment.\n\n#### Step 2: Access the WordPress Admin\n\n1. **Navigate to the local URL**:\n   ```sh\n   http://localhost/wp-dev/wp-admin\n   ```\n2. **Login with your credentials**: Use your WordPress credentials to log in.\n\n#### Step 3: Configure Your Site\n\n1. **Themes and Plugins**: Install and configure necessary themes and plugins.\n2. **Settings**: Adjust your site settings to match your desired specifications.\n\n### Using the WYSIWYG Editor\n\n#### Classic Editor\n1. **Navigate to the Post or Page Edit Screen**: \n   ```sh\n   Posts > Add New or Pages > Add New\n   ```\n2. **Use the WYSIWYG editor**: Add and format text, media, and other content using the visual editor.\n\n#### Gutenberg Editor (Block Editor)\n1. **Navigate to the Post or Page Edit Screen**:\n   ```sh\n   Posts > Add New or Pages > Add New\n   ```\n2. **Use the Block Editor**: Add different types of blocks (e.g., text, images, galleries, columns) to construct your content.\n\n### Using Page Builders\n\nMany developers use page builders to add advanced design features and simplify the development process:\n\n#### Elementor\n1. **Install and Activate Elementor**:\n   ```sh\n   Plugins > Add New > Search for \"Elementor\" > Install > Activate\n   ```\n2. **Create/Edit a Page with Elementor**:\n   ```sh\n   Pages > Add New > Edit with Elementor\n   ```\n\n#### Divi\n1. **Install and Activate Divi**:\n   ```sh\n   Appearance > Themes > Add New > Upload Theme (Upload Divi theme zip file)\n   ```\n2. **Create/Edit a Page with Divi**:\n   ```sh\n   Pages > Add New > Use The Divi Builder\n   ```\n\n### Final Testing & Deployment\n\n1. **Thorough Testing**: Test all changes locally to ensure functionality and aesthetics meet your standards.\n2. **Deploy**: Once satisfied, deploy the changes to your production server.\n\n### Advantages of Local Development with WordPress Admin\n\n- **Speed**: Instant feedback and faster iterations.\n- **Safety**: Changes made locally won't affect the live site.\n- **Learning Curve**: Easier for those less familiar with coding.\n\n### Tools and Plugins to Enhance WYSIWYG Development\n\n1. **Advanced Custom Fields (ACF)**: Create custom fields for more complex content structures.\n2. **Custom Post Type UI**: Manage custom post types and taxonomies.\n3. **Yoast SEO**: Optimize content for search engines.\n4. **WooCommerce**: Develop e-commerce capabilities locally.\n\n### Summary\n\nUsing the WordPress Admin for WYSIWYG development on a local environment is a common and effective approach. It provides a visual, user-friendly interface to create and edit content, test changes, and make sure everything works perfectly before going live. Whether you are using the built-in editors or advanced page builders, the process can be significantly streamlined using a local setup.",
+      "id": "msg-evSuASKUrM0X5kluc1MY2vQYQy5q",
+      "updatedAt": "2024-07-28T16:03:34.293Z",
+      "metadata": {
+        "generateDuration": 8831,
+        "latencyDuration": 1132,
+        "duration": 8831,
+        "tokensCount": 1189,
+        "tokensPerSecond": 134.63933869323972
+      }
+    },
+    "msg-mT2XHb4bbOGg0QQWaBQbpQ8l25jG": {
+      "characterId": "USER",
+      "content": "is it common to use the wordpress admin for wisiwyg development on local env",
+      "attachments": [],
+      "id": "msg-mT2XHb4bbOGg0QQWaBQbpQ8l25jG",
+      "updatedAt": "2024-07-28T16:03:24.329Z"
+    },
+    "msg-nThirYI9TXuWesOjTjYpilBSh1hg": {
+      "characterId": "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW",
+      "content": "Yes, it is quite common to use Git for local development of WordPress sites. Git provides version control, collaboration features, and an efficient workflow which make it an ideal tool for managing the development process. Here are several reasons why developers use Git for WordPress projects:\n\n### Benefits of using Git for WordPress Development\n\n1. **Version Control**: Track code changes, revert to previous versions, and manage version histories for effective collaboration and backup.\n2. **Collaboration**: Team members can work on different features or bugs simultaneously without overwriting each other's work.\n3. **Branching and Merging**: Create different branches for features, bug fixes, or experiments. Merge them back into the main branch when they are ready.\n4. **Code Review**: Pull requests and code reviews add an extra layer of quality control to your project.\n5. **Deployment Automation**: Integrate with CI/CD tools for automated testing and deployment.\n\n### Setting Up Git for a WordPress Project\n\n#### Step 1: Initialize a Git Repository\n\n1. **Navigate to your project folder**:\n   ```sh\n   cd path/to/your/wp-dev\n   ```\n\n2. **Initialize Git**:\n   ```sh\n   git init\n   ```\n\n#### Step 2: Create a `.gitignore` File\n\nCertain files and directories should not be tracked by Git, such as `wp-config.php`, `node_modules`, and caching directories. Create a `.gitignore` file in the root directory:\n\n```sh\ntouch .gitignore\n```\n\nAdd the following typical entries:\n\n```gitignore\n# Ignore WordPress specific\nwp-config.php\nwp-content/uploads/\nwp-content/upgrade/\nwp-content/wflogs/\nwp-content/cache/\nwp-content/debug.log\n\n# Ignore OS specific\n.DS_Store\nThumbs.db\n\n# Ignore IDE specific\n*.sublime-workspace\n*.sublime-project\n.idea/\n*.code-workspace\n\n# Ignore npm\nnode_modules/\n```\n\n#### Step 3: Make Your Initial Commit\n\n1. **Add all files to staging**:\n   ```sh\n   git add .\n   ```\n\n2. **Commit the files**:\n   ```sh\n   git commit -m \"Initial commit\"\n   ```\n\n#### Step 4: Create Separate Branches for Different Features or Fixes\n\n1. **Create a new branch**:\n   ```sh\n   git checkout -b feature/your-feature-name\n   ```\n\n#### Step 5: Collaborate and Push to Remote Repository\n\n1. **Add a remote repository**:\n   ```sh\n   git remote add origin https://github.com/username/repository-name.git\n   ```\n\n2. **Push your changes**:\n   ```sh\n   git push -u origin main\n   ```\n\n3. **Create Pull Requests**: If working in a team, use pull requests to merge branches after code review.\n\n### Additional Tools for Git Workflow in WordPress Development\n\n- **GitHub/GitLab/Bitbucket**: Platforms for hosting your repositories and facilitating collaboration.\n- **WP-CLI**: Automate WordPress installation, updates, and other tasks via the command line.\n- **Local by Flywheel**: Sometimes integrates seamlessly with version control systems like Git.\n- **Composer**: Manage PHP dependencies, including WordPress plugins and libraries.\n- **npm/Yarn**: Manage JavaScript dependencies for theme and plugin development.\n- **Docker**: Containerize your WordPress environment for more consistent and isolated development setups.\n\n### Final Thoughts\n\nUsing Git for WordPress development can significantly streamline your workflow, especially when dealing with complex projects or working in a team. It ensures that your code remains organized, changes are tracked, and you can easily collaborate with others.\n\n",
+      "id": "msg-nThirYI9TXuWesOjTjYpilBSh1hg",
+      "updatedAt": "2024-07-28T16:02:13.523Z",
+      "metadata": {
+        "generateDuration": 8053,
+        "latencyDuration": 1599,
+        "duration": 8053,
+        "tokensCount": 1013,
+        "tokensPerSecond": 125.79163044828013
+      }
+    },
+    "msg-fySuWBAC52g9bBapGp9C1zh1zU8S": {
+      "characterId": "USER",
+      "content": "is it common to use git for local development of wordpress?",
+      "attachments": [],
+      "id": "msg-fySuWBAC52g9bBapGp9C1zh1zU8S",
+      "updatedAt": "2024-07-28T16:02:03.868Z"
+    },
+    "msg-EmWTLnmSZAPpBFn49UV1VEax5bHs": {
+      "characterId": "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW",
+      "content": "Working on an existing WordPress site in a development environment involves several steps. Here's a step-by-step guide to help you get started:\n\n**Step 1: Clone the existing site**\n\n1. Create a new folder on your local machine (e.g., `wp-dev`) to hold the development version of the site.\n2. Use an FTP client (e.g., FileZilla) or a version control system (e.g., Git) to download a copy of the existing site's files from the production server to your local machine.\n3. Alternatively, you can use a plugin like [Duplicator](https://wordpress.org/plugins/duplicator/) or [UpdraftPlus](https://wordpress.org/plugins/updraftplus/) to create a clone of the site.\n\n**Step 2: Set up a local development environment**\n\n1. Install a local development environment on your machine, such as:\n\t* XAMPP (Windows, macOS, Linux)\n\t* MAMP (macOS)\n\t* Local by Flywheel (Windows, macOS)\n\t* Docker ( Windows, macOS, Linux)\n2. Configure the local environment to mimic the production server's settings (e.g., PHP version, database type).\n\n**Step 3: Create a new database**\n\n1. Create a new database in your local development environment. You can use a tool like phpMyAdmin to manage your databases.\n2. Export the production site's database and import it into your new local database. You can use a plugin like [WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db/) to simplify this process.\n\n**Step 4: Update the site's configuration**\n\n1. Update the `wp-config.php` file to reflect the new local database settings.\n2. Update the site's `wp_options` table to point to the new local URL (e.g., `http://localhost/wp-dev` instead of `http://example.com`).\n\n**Step 5: Install necessary plugins and themes**\n\n1. Install any required plugins and themes that are not included in the core WordPress installation.\n2. Activate the plugins and themes to ensure they are functioning correctly.\n\n**Step 6: Update the site's URLs**\n\n1. Use a plugin like [Better Search Replace](https://wordpress.org/plugins/better-search-replace/) or [ Velvet Blues Update URLs](https://wordpress.org/plugins/velvet-blues-update-urls/) to update all URLs in the database to point to the new local URL.\n\n**Step 7: Test and develop**\n\n1. Test the site to ensure it's functioning correctly in the local development environment.\n2. Make changes, updates, and fixes as needed.\n3. Test again to ensure the changes work as expected.\n\n**Step 8: Deploy changes to production**\n\n1. Once you've made and tested changes, use a plugin like [WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db/) or [Duplicator](https://wordpress.org/plugins/duplicator/) to export the updated database.\n2. Import the updated database into the production server.\n3. Upload the updated files to the production server.\n\nBy following these steps, you can safely work on an existing WordPress site in a development environment, test changes, and deploy updates to the production server.",
+      "id": "msg-EmWTLnmSZAPpBFn49UV1VEax5bHs",
+      "updatedAt": "2024-07-28T15:26:53.700Z",
+      "metadata": {
+        "generateDuration": 39022,
+        "latencyDuration": 1607,
+        "duration": 39022,
+        "tokensCount": 869,
+        "tokensPerSecond": 22.26948900620163
+      }
+    },
+    "msg-xvH8e3MBQ88gL3pDPGoaBhwbKYgV": {
+      "characterId": "USER",
+      "content": "how to work on an existing wordpress site in development env",
+      "attachments": [],
+      "id": "msg-xvH8e3MBQ88gL3pDPGoaBhwbKYgV",
+      "updatedAt": "2024-07-28T15:26:13.071Z"
+    }
+  }
+}

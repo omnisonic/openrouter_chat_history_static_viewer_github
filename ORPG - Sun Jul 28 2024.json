@@ -1,0 +1,58 @@
+{
+  "version": "orpg.1.0",
+  "characters": {
+    "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW": {
+      "id": "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW",
+      "model": "openrouter/auto",
+      "modelInfo": {
+        "id": 158,
+        "slug": "openrouter/auto",
+        "hf_slug": null,
+        "updated_at": null,
+        "created_at": "2023-11-08T00:00:00+00:00",
+        "hf_updated_at": null,
+        "name": "Auto (best for prompt)",
+        "short_name": "Auto (best for prompt)",
+        "author": "openrouter",
+        "description": "Depending on their size, subject, and complexity, your prompts will be sent to [Llama 3 70B Instruct](/models/meta-llama/llama-3-70b-instruct), [Claude 3.5 Sonnet (self-moderated)](/models/anthropic/claude-3.5-sonnet:beta) or [GPT-4o](/models/openai/gpt-4o).  To see which model was used, visit [Activity](/activity).\n\nA major redesign of this router is coming soon. Stay tuned on [Discord](https://discord.gg/fVyRaUDgxW) for updates.",
+        "context_length": 200000,
+        "modality": "text->text",
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "router": null,
+        "base_model_slug": "openrouter/auto",
+        "endpoint": null
+      },
+      "updatedAt": "2024-07-28T15:25:54.973Z",
+      "samplingParameters": {},
+      "maxTokens": 0,
+      "chatMemory": 8,
+      "description": ""
+    }
+  },
+  "messages": {
+    "msg-EmWTLnmSZAPpBFn49UV1VEax5bHs": {
+      "characterId": "char-ETwKxV2nwLfs0j6FnDIF9hT9CEsW",
+      "content": "Working on an existing WordPress site in a development environment involves several steps. Here's a step-by-step guide to help you get started:\n\n**Step 1: Clone the existing site**\n\n1. Create a new folder on your local machine (e.g., `wp-dev`) to hold the development version of the site.\n2. Use an FTP client (e.g., FileZilla) or a version control system (e.g., Git) to download a copy of the existing site's files from the production server to your local machine.\n3. Alternatively, you can use a plugin like [Duplicator](https://wordpress.org/plugins/duplicator/) or [UpdraftPlus](https://wordpress.org/plugins/updraftplus/) to create a clone of the site.\n\n**Step 2: Set up a local development environment**\n\n1. Install a local development environment on your machine, such as:\n\t* XAMPP (Windows, macOS, Linux)\n\t* MAMP (macOS)\n\t* Local by Flywheel (Windows, macOS)\n\t* Docker ( Windows, macOS, Linux)\n2. Configure the local environment to mimic the production server's settings (e.g., PHP version, database type).\n\n**Step 3: Create a new database**\n\n1. Create a new database in your local development environment. You can use a tool like phpMyAdmin to manage your databases.\n2. Export the production site's database and import it into your new local database. You can use a plugin like [WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db/) to simplify this process.\n\n**Step 4: Update the site's configuration**\n\n1. Update the `wp-config.php` file to reflect the new local database settings.\n2. Update the site's `wp_options` table to point to the new local URL (e.g., `http://localhost/wp-dev` instead of `http://example.com`).\n\n**Step 5: Install necessary plugins and themes**\n\n1. Install any required plugins and themes that are not included in the core WordPress installation.\n2. Activate the plugins and themes to ensure they are functioning correctly.\n\n**Step 6: Update the site's URLs**\n\n1. Use a plugin like [Better Search Replace](https://wordpress.org/plugins/better-search-replace/) or [ Velvet Blues Update URLs](https://wordpress.org/plugins/velvet-blues-update-urls/) to update all URLs in the database to point to the new local URL.\n\n**Step 7: Test and develop**\n\n1. Test the site to ensure it's functioning correctly in the local development environment.\n2. Make changes, updates, and fixes as needed.\n3. Test again to ensure the changes work as expected.\n\n**Step 8: Deploy changes to production**\n\n1. Once you've made and tested changes, use a plugin like [WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db/) or [Duplicator](https://wordpress.org/plugins/duplicator/) to export the updated database.\n2. Import the updated database into the production server.\n3. Upload the updated files to the production server.\n\nBy following these steps, you can safely work on an existing WordPress site in a development environment, test changes, and deploy updates to the production server.",
+      "id": "msg-EmWTLnmSZAPpBFn49UV1VEax5bHs",
+      "updatedAt": "2024-07-28T15:26:53.700Z",
+      "metadata": {
+        "generateDuration": 39022,
+        "latencyDuration": 1607,
+        "duration": 39022,
+        "tokensCount": 869,
+        "tokensPerSecond": 22.26948900620163
+      }
+    },
+    "msg-xvH8e3MBQ88gL3pDPGoaBhwbKYgV": {
+      "characterId": "USER",
+      "content": "how to work on an existing wordpress site in development env",
+      "attachments": [],
+      "id": "msg-xvH8e3MBQ88gL3pDPGoaBhwbKYgV",
+      "updatedAt": "2024-07-28T15:26:13.071Z"
+    }
+  }
+}
